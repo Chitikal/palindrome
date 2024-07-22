@@ -1,0 +1,6 @@
+input = "joy"
+reverse = input[::-1]
+if input == reverse:
+   print("palindrome")
+else:
+   print("not a palindrome")
